@@ -145,6 +145,7 @@ export class ClickHouseClient {
                     return data;
                 }
             },
+            maxBodyLength: Infinity,
             headers: this._getHeaders()
         }
 
